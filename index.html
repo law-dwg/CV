@@ -3,78 +3,71 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="icon" type="Images/favicon.ico" href="Images/favicon.ico" />
+  <link rel="icon" type="Images/favicon.ico" href="Images/favicon.ico">
   <title>Lawrence F Ayers IV</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <table cellspacing="5">
-    <thead>
-      <tr>
-        <td><img src="Images/biz_small.jpeg" alt="Lawrence Fales Ayers IV"></td>
-        <td>
-          <h1>Lawrence F Ayers IV</h1>
-          <p>Masters Student at the Technische Universität Darmstadt</p>
-          <p>B.Sc Mechanical Engineering</p>
-      </tr>
-    </thead>
-    <tfoot>
-      <tr>
-        <td>
-          <p><a href="aboutme.html">About me</a></p>
-          <p><a href="projects.html">Projects</a></p>
-          <p><a href="contact.html">Contact</a></p>
-        </td>
-      </tr>
-    </tfoot>
-  </table>
-  <strong>This</strong> website is a place for me to practice HTML, CSS, and Javascript. Most of this work
+	<div class="img-holder">
+		<img id="face" src="Images/biz_small.jpeg" alt="Lawrence Fales Ayers IV">
+	</div>
+	<div id="title-info">
+		<h1>Lawrence F Ayers IV</h1>
+       	<p>Masters Student at the Technische Universität Darmstadt</p>
+       	<p>B.Sc Mechanical Engineering</p>
+	</div>
+	<div id="nav-menu">
+		<a href="aboutme.html">About me</a>
+		<a href="projects.html">Projects</a>
+		<a href="contact.html">Contact</a>
+	</div>
+  	<p><strong>This</strong> website is a place for me to practice HTML, CSS, and Javascript. Most of this work
   was completed whilst in quarantine during the COV19 SARS outbreak. I hope
-  to one day use this website as a portal to my life and work.
+  to one day use this website as a portal to my life and work.</p>
+  	<hr>
+	<h3>Things i would like to accomplish</h3>
+	<ol type=I>
+		<li>Home server running this website on a raspberry pi</li>
+		<li>A program that runs a cuda kernel to show the speed up of parallel computing, then posting the results here</li>
+		<li>optional: have a gpu on the server that can run this program through the website and present users with the results</li>
+	</ol>
+	<hr>
+	<div class="skills">
+		<h3>Skills</h3>
+		<table border="1">
+			<tr>
+		  <td>
+			<table cellspacing="10">
+			  <tr>
+				<td>C++/C</td>
+				<td>&#11088;&#11088;&#11088;</td>
+			  </tr>
+			  <tr>
+				<td>Python</td>
+				<td>&#11088;&#11088;</td>
+			  </tr>
+			</table>
+		  </td>
+		  <td>
+			<table cellspacing="10">
+			  <tr>
+				<td>Bash</td>
+				<td>&#11088;&#11088;&#11088;</td>
+			  </tr>
+			  <tr>
+				<td>CUDA</td>
+				<td>&#11088;</td>
+			  </tr>
+			</table>
+		  </td>
+	  </table>
+	</div>
   <hr>
-  <h3>Things i would like to accomplish</h3>
-  <ol type=I>
-    <li>Home server running this website on a raspberry pi</li>
-    <li>A program that runs a cuda kernel to show the speed up of parallel
-      computing, then posting the results here</li>
-    <li>optional: have a gpu on the server that can run this program through the
-      website and present users with the results</li>
-  </ol>
-  <hr>
-  <h3>Skills</h3>
-  <table border="1">
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>C++/C</td>
-            <td>&#11088;&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>&#11088;&#11088;</td>
-          </tr>
-        </table>
-      </td>
-
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Bash</td>
-            <td>&#11088;&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>CUDA</td>
-            <td>&#11088;</td>
-          </tr>
-        </table>
-      </td>
-
-  </table>
-
-  <hr>
-  <strong><a href="https://linkedin.com/in/lawrenceayersiv"><img src="Images/LI-In-Bug_xtra_small.png" alt=""></a></strong>
-  <strong><a href="https://twitter.com/law_dwg"><img src="Images/Twitter_Social_Icon_Circle_Color_xtrasmall.png" alt="Test"></a></strong>
+	<div id="logos">
+		<strong><a href="https://linkedin.com/in/lawrenceayersiv"><img src="Images/LI-In-Bug_xtra_small.png" alt=""></a></strong>
+		<strong><a href="https://twitter.com/law_dwg"><img src="Images/Twitter_Social_Icon_Circle_Color_xtrasmall.png" alt="Test"></a></strong>
+  	</div>
+	<span id="size-disp"></span>
 </body>
 
 </html>
